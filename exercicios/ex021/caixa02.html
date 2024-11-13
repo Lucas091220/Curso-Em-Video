@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        header{
+            background-color: red;
+        }
+        
+        header>nav{
+            background-color: blue;
+        }
+        
+        li>a{
+            color: white;
+        }
+
+        main{
+            background-color: gray;
+        }
+
+        main>section{
+            background-color: green;
+        }
+
+        section>article{
+            color: yellow;
+        }
+        article>aside{
+            background-color: black;
+        }
+
+        footer{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Títudo logo</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tutoriais</a></li>
+                <li><a href="#">Exercícios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Títido Principal</h1>
+        <section>
+            <article>
+                <h2>Título do Atigo</h2>
+                <p>Assunto do Artigo</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Título do Artigo</h2>
+                <p>Assunto</p>
+                <aside>
+                    <h3>Títudo relacionado ao Artido</h3>
+                    <p>Assunto relacionado ao Artigo</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido Por Lucas Albuquerque
+            &copy;
+        </p>
+    </footer>
+    
+</body>
+</html>

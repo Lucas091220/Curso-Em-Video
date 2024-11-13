@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    
+}
+
+h1{
+    background-color: gray;
+    font: italic 2em Georgia, 'Times New Roman', Times, serif;
+    height: 50px;
+    width: 315px;
+    border: 5px solid red;
+    border-radius: 15px 0px;
+    box-shadow: 1px 1px 10px black;
+    outline: 2px solid blue;
+    padding: 20px 10px;
+    margin: 20px auto 40px auto;
+}
+
+
+a{
+    background-color: gray;
+    font: italic bold 1em Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border: 3px solid red;
+    border-radius: 10px 0px;
+    box-shadow: 1px 1px 10px black;
+    outline: 2px solid blue;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    
+}
+
+.link:link{
+    color: red;
+}
+
+.link:visited{
+    color: yellow;
+}
+
+
+.link:hover{
+    text-decoration: underline;
+    color: black;
+    
+}
+
+.link:active{
+    color: blue;
+}
+
+.link::before{
+    content: " => ";
+    color: aqua;
+}
+
+.link::after{
+    content: " <= ";
+    color: aqua;
+}

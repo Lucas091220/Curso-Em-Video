@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>tente abrir esse sites em dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu mavegador.</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="src/img/img-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="src/img/img-m.png" type="image/png">
+        <img src="src/img/img-g.png" alt="Imagem-G-m-p">
+    </picture>
+    
+    <br><br>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="src/img/img-g.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="src/img/img-m.png" type="image/png">
+        <img src="src/img/img-p.png" alt="img-p-m-g">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+
+    <audio preload="metadata" controls loop>
+        <source src="src/audio/paper-crown.mp3" type="audio/mpeg">
+        Infezlimente,seu navegador não consegue reproduzir o áduio.Clique em download para baixar<a href="src/audio/paper-crown.mp3" download="paper-crown.mp3" type="audio/mpeg">DOWNLOAD</a>
+    </audio>
+    
+    
+    
+
+    
+</body>
+</html>

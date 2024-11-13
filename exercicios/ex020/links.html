@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        @charset"UTF-8";
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        ul{
+            list-style: none;
+        }
+        
+        a{
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:link{
+            color: aqua;
+        }
+        a:visited{
+            color: purple;
+        }
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+
+        a:focus{
+            background-color: black;
+        }
+
+        .eu::before{
+            content: '==>';
+            color: black;
+            
+        }
+
+        .eu::after{
+            content: '<==';
+            color: black;
+            
+        }
+        p{
+            font-family: verdana, Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+
+        p::first-letter{
+            display: block;
+            color: red;
+            font-family: none;
+            font-size: 80px;
+            font-weight: bold;
+            font-style: italic;
+            float: left;
+            margin: 0 10px 0 10px;
+        }
+
+        p::first-line{
+            color: black;
+            background-color: aqua;
+        }
+
+        p::selection{
+            color: red;
+            background-color: black;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1>Personalizando Links</h1>
+
+    <ul>
+        <li><a href="https://www.facebook.com/?locale=pt_BR" target="_blank" rel="external">Facebook</a></li>
+        <li><a href="https://www.youtube.com/?app=desktop&hl=pt" target="_blank" rel="external">YouTube</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank" rel="external">W3C</a></li>
+        <li><a class="eu" href="#">Eu</a></li>
+    </ul>
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, eum minus aliquid earum quisquam ad velit atque quam? Facilis id autem illum! Sequi enim, quod fugiat a quas dolores quo.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, eum minus aliquid earum quisquam ad velit atque quam? Facilis id autem illum! Sequi enim, quod fugiat a quas dolores quo.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, eum minus aliquid earum quisquam ad velit atque quam? Facilis id autem illum! Sequi enim, quod fugiat a quas dolores quo.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, eum minus aliquid earum quisquam ad velit atque quam? Facilis id autem illum! Sequi enim, quod fugiat a quas dolores quo.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, eum minus aliquid earum quisquam ad velit atque quam? Facilis id autem illum! Sequi enim, quod fugiat a quas dolores quo.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, eum minus aliquid earum quisquam ad velit atque quam? Facilis id autem illum! Sequi enim, quod fugiat a quas dolores quo.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, eum minus aliquid earum quisquam ad velit atque quam? Facilis id autem illum! Sequi enim, quod fugiat a quas dolores quo.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, eum minus aliquid earum quisquam ad velit atque quam? Facilis id autem illum! Sequi enim, quod fugiat a quas dolores quo.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, eum minus aliquid earum quisquam ad velit atque quam? Facilis id autem illum! Sequi enim, quod fugiat a quas dolores quo.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, eum minus aliquid earum quisquam ad velit atque quam? Facilis id autem illum! Sequi enim, quod fugiat a quas dolores quo.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, eum minus aliquid earum quisquam ad velit atque quam? Facilis id autem illum! Sequi enim, quod fugiat a quas dolores quo.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, eum minus aliquid earum quisquam ad velit atque quam? Facilis id autem illum! Sequi enim, quod fugiat a quas dolores quo.
+    </p>
+
+
+    
+    
+</body>
+</html>
